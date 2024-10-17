@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="login">
+    <img src="/assets/img/user.png" alt="user" />
+    <form class="form" [formGroup]="form" (ngSubmit)="onLogin()">
+
+      <mat-form-field class="input">
+        <mat-label>Email</mat-label>
+        <input formControlName="email" matInput />
+      </mat-form-field>
+
+      <mat-form-field class="input">
+        <mat-label>Password</mat-label>
+        <input formControlName="password" type="password" matInput />
+      </mat-form-field>
+
+      <button mat-raised-button class="buttons-all" type="submit">Log in</button>
+
+    </form>
+  </div>
+</div>

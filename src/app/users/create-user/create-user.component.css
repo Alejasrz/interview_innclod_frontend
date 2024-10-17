@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 80vh !important;
+}
+
+form {
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.inputs_div {
+    display: flex;
+    flex-direction: column;
+
+    mat-form-field {
+        width: 100%;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}

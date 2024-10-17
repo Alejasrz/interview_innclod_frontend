@@ -1,0 +1,47 @@
+.container {
+    width: 100vw;
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+}
+
+.title_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.table{
+    margin: 20px;
+}
+
+.filter{
+    padding: 20px;
+}
+
+.icon {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.article{
+    color: rgb(105, 226, 237);
+}
+
+.edit{
+    color: rgb(107, 142, 247);
+}
+
+.delete{
+    color: rgb(232, 167, 233);
+}
+
+.mat-column-actions {
+    width: 150px !important;
+}

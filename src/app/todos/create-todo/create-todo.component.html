@@ -1,0 +1,17 @@
+<div class="container">
+  <h1 class="title">Create Todo</h1>
+
+  <form class="form" [formGroup]="form" (ngSubmit)="saveTodo()">
+    <mat-form-field>
+      <mat-label>Title</mat-label>
+      <input formControlName="title" matInput />
+    </mat-form-field>
+
+    <mat-checkbox formControlName="completed" class="checkbox">If the task is completed, please check the box.</mat-checkbox>
+
+    <div class="buttons">
+      <button mat-raised-button class="buttons-cancel" type="button" (click)="onCancel()">Cancel</button>
+      <button mat-raised-button class="buttons-all" type="submit">Save</button>
+    </div>
+  </form>
+</div>
